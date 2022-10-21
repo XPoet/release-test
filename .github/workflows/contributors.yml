@@ -1,0 +1,15 @@
+name: Generate a list of contributors
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate-contributors-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Contributors list
+        uses: akhilmhdh/contributors-readme-action@v2.3.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
