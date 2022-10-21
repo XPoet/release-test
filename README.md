@@ -11,3 +11,12 @@
     </td></tr>
 </table>
 <!-- readme: collaborators,contributors -end -->
+
+
+---
+
+## 贡献者
+
+<a href="https://github.com/XPoet/hexo-theme-keep/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=XPoet/hexo-theme-keep" />
+</a>
