@@ -3,7 +3,7 @@ name: Generate a list of contributors
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   generate-contributors-list:
